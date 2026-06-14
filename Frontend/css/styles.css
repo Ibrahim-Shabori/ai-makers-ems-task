@@ -1,0 +1,70 @@
+
+body {
+    background-color: #0B1120 !important; 
+    overflow-x: hidden;
+}
+
+:root {
+    --bs-info: #81e6d9; 
+    --bs-info-rgb: 129, 230, 217;
+    --bs-dark: #1e293b;
+}
+
+.navbar {
+    background-color: rgba(11, 17, 32, 0.8) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.card {
+    background-color: #1e293b !important; 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.table-dark {
+    background-color: rgba(15, 23, 42, 0.5) !important;
+}
+
+.table-hover tbody tr:hover td {
+    background-color: rgba(129, 230, 217, 0.05) !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-control:focus, 
+.form-select:focus, 
+.btn-close:focus {
+    border-color: var(--bs-info);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-info-rgb), 0.25);
+    background-color: #0f172a !important;
+    color: #f8f9fa;
+}
+
+.btn-info {
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+    box-shadow: 0 0 15px rgba(var(--bs-info-rgb), 0.4);
+    transform: translateY(-1px);
+    background-color: #99f6e4;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0B1120; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #33415

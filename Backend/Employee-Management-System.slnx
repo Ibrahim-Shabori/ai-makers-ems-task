@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Employee-Management-System.API/Employee-Management-System.API.csproj" />
+  <Project Path="Employee-Management-System.DataAccess/Employee-Management-System.DataAccess.csproj" />
+  <Project Path="Employee-Management-System.Models/Employee-Management-System.Models.csproj" />
+</Solution>
